@@ -15,13 +15,6 @@ The dashboard helps understand total revenue, regional sales contribution, produ
 - Interactive filters to slice data by region and category
 
 
-
- Dashboard Preview
-
-[Insert screenshot here - dashboard-preview.png]
-
-
-
  Data Source
 
 The dataset contains 30 sales transactions from January to March 2024 with following columns:
