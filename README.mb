@@ -1,14 +1,12 @@
-# Power BI Sales Dashboard
+ Power BI Sales Dashboard
 
-## Project Overview
+ Project Overview
 
 This is an interactive Sales Dashboard built using Microsoft Power BI that analyzes business performance across different regions and product categories.
 
 The dashboard helps understand total revenue, regional sales contribution, product category performance, and discount impact on sales.
 
----
-
-## Key Features
+ Key Features
 
 - Total Sales KPI: ₹1,91,300 overall revenue
 - Regional breakdown: West (25%), North (22%), South (18%), East (14%)
@@ -16,15 +14,15 @@ The dashboard helps understand total revenue, regional sales contribution, produ
 - Calculated Total Sales using formula: Quantity × Unit Price × (1 - Discount)
 - Interactive filters to slice data by region and category
 
----
 
-## Dashboard Preview
+
+ Dashboard Preview
 
 [Insert screenshot here - dashboard-preview.png]
 
----
 
-## Data Source
+
+ Data Source
 
 The dataset contains 30 sales transactions from January to March 2024 with following columns:
 
@@ -37,9 +35,7 @@ The dataset contains 30 sales transactions from January to March 2024 with follo
 - UnitPrice - Price per unit in rupees
 - Discount - Discount percentage applied
 
----
-
-## Tools Used
+ Tools Used
 
 - Power BI Desktop - Dashboard creation and visualization
 - Power Query - Data cleaning and transformation
@@ -49,18 +45,16 @@ Key DAX Formula:
 
 TotalSales = Quantity * UnitPrice * (1 - Discount)
 
----
 
-## Key Insights
+ Key Insights
 
 1. West region contributes highest sales (25% of total revenue)
 2. Electronics category generates maximum revenue (₹85,000)
 3. Average discount offered across all transactions is 4.2%
 4. North region follows with 22% sales contribution
 
----
 
-## How to View the Dashboard
+How to View the Dashboard
 
 Prerequisites:
 - Power BI Desktop (free download from Microsoft website)
@@ -70,26 +64,30 @@ Steps:
 2. Open with Power BI Desktop
 3. Explore interactive visuals by clicking on regions or categories
 
----
 
-## Repository Structure
+
+Repository Structure
 
 powerbi-sales-dashboard/
-├── Ayan_Khan_Sales_Dashboard.pbix   # Main Power BI dashboard file
-├── sales_data.csv                    # Raw data source
-├── dashboard-preview.png             # Dashboard screenshot
-└── README.md                         # Project documentation
+- Ayan_Khan_Sales_Dashboard.pbix  
+- sales_data.csv                    
+- dashboard-preview.png            
+- README.md                        
 
----
 
-## Created By
+
+ Created By
 
 Ayan Khan
 Computer Science Student
 BITS Pilani Dubai Campus
 
 Email: f20250376@dubai.bits-pilani.ac.in
-Phone: +971 58 503 2765, 91+ 99582 71035
+
+
+
+
+
 
 
 
